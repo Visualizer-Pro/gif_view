@@ -23,7 +23,7 @@ class GifController extends ChangeNotifier {
   GifStatus status = GifStatus.loading;
   Exception? exception;
 
-  final bool autoPlay;
+  bool autoPlay;
   final VoidCallback? onFinish;
   final VoidCallback? onStart;
   final ValueChanged<int>? onFrame;
